@@ -1,8 +1,4 @@
 github.com/grokify/html-strip-tags-go v0.0.0-20200322061010-ea0c1cf2f119 h1:h3iGUlU8HyW4baKd6D+h1mwOHnM2kwskSuG6Bv4tSbc=
 github.com/grokify/html-strip-tags-go v0.0.0-20200322061010-ea0c1cf2f119/go.mod h1:2Su6romC5/1VXOQMaWL2yb618ARB8iVo6/DR99A6d78=
-github.com/pablodz/word2number v0.1.1 h1:ImMB0Q2CAI9W4lF608abrU8n98rBOAjk3conDixfIkw=
-github.com/pablodz/word2number v0.1.1/go.mod h1:+62KluPzVmIEd3rG1viKPDRVO4SkG6pNGrvysIYymlI=
 github.com/securisec/go-keywords v0.0.0-20200619134240-769e7273f2ed h1:8ZFy/8C1JaByuTedmMDrLgK7dH/7KPKKXiuJDU0KJYg=
 github.com/securisec/go-keywords v0.0.0-20200619134240-769e7273f2ed/go.mod h1:ewJJMApUajQGvQOaQb/QyzTLoL619B5D02XOZlGnlNo=
-golang.org/x/text v0.5.0 h1:OLmvp0KP+FVG99Ct/qFiL/Fhk4zp4QQnZ7b2U+5piUM=
-golang.org/x/text v0.5.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
