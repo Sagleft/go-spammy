@@ -99,13 +99,12 @@ func (a *defaultAnalyzer) CheckTextSpamLevel(text string) (float64, error) {
 		return 0, fmt.Errorf("get top keywords: %w", err)
 	}
 
-	_, allKeywords, err := getKeywords(text, -1)
+	allUsage, _, err := getKeywords(text, -1)
 	if err != nil {
 		return 0, fmt.Errorf("get all keywords: %w", err)
 	}
 
-	allKeywordsCount := len(allKeywords)
-	spammyLevel := 100 * float64(keywordsUsage) / float64(allKeywordsCount)
+	spammyLevel := 100 * float64(keywordsUsage) / float64(allUsage)
 	spammyLevel = math.Round(spammyLevel*math.Pow10(2)) / math.Pow10(2)
 	return spammyLevel, nil
 }
